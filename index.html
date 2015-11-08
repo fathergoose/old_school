@@ -3,17 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <title>Fathergoose Speaks</title>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link rel="stylesheet" href="./material.min.css">
+  <script src="./material.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-  <div class="nav">
-    <div class="container">
-      <ul class="pull-right">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Articles</a></li>
-      </ul>
+  <!-- Always shows a header, even in smaller screens. -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-100">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Fathergoose Speaks</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="">Link</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+      <span class="mdl-layout-title">Title</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
     </div>
-  </div>  
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col">6</div>
+          <div class="mdl-cell mdl-cell--8-col">
+            <!-- Wide card with share menu button -->
+            <style>
+              .demo-card-wide.mdl-card {
+                width: 100%;
+              }
+              .demo-card-wide > .mdl-card__title {
+                color: #fff;
+                height: 176px;
+                background: url('../assets/demos/welcome_card.jpg') center / cover;
+              }
+              .demo-card-wide > .mdl-card__menu {
+                color: #fff;
+              }
+            </style>
+
+            <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+              <!--div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Welcome</h2>
+              </div-->
+              <div class="mdl-card__supporting-text">
+                <h1>Can I use traditional tags</h1>
+                <p>This is where the blogging text will appear once everthing is complete.</p>
+                <pre><code> $ sudo apt-get install testing</code></pre>
+                <p>Now this text follows the code block I want to see if it is possible to fill up the area with text. Test the boarders and see what happens when we keep typing, and typing, and typing. My ideas are running out... I now added p tags to surround this text information in the body since it clearly is a paragraph of text... that is what the p tags are for, right?</p>
+              </div>
+              <!--div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                  Get Started
+                </a>
+              </div-->
+              <!--div class="mdl-card__menu">
+                <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                  <i class="material-icons">share</i>
+                </button>
+              </div-->
+            </div>
+          </div>
+          <div class="mdl-cell mdl-cell--2-col">2</div>
+        </div>
+      </div>
+    </main>
+  </div>
 </body>
 </html>
