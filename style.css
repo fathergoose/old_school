@@ -3,6 +3,7 @@
   text-decoration: none;
 }
 
+
 .icon {
 
     > svg {
@@ -21,12 +22,10 @@
     width: 100%;
 }
 .demo-card-wide > .mdl-card__title {
-    color: #fff;
-    height: 176px;
-    background: url('../assets/demos/welcome_card.jpg') center / cover;
+    height: 100px;
+    
 }
-.demo-card-wide > .mdl-card__menu {
-    color: #fff;
-}
+
+
 
 /* overflow: scroll; this will provide a fixed size div box with a scroll bar-- good for long code maybe
