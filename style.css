@@ -1,4 +1,4 @@
-.mdl-layout-title, .mdl-navigation__link, h1 {
+.mdl-layout-title, .mdl-navigation__link, h1, h3 {
   font-family: 'Share Tech Mono';
   text-decoration: none;
 }
