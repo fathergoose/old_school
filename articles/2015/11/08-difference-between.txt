@@ -1,5 +1,43 @@
 08-difference-between.txt
 
- Is something I have contemplated a lot in the past months. I asked to get a chemistry set for Christmas, declared chemistry as my major as soon as possible, and spent the last four years doing product development for a chemical start-up. My affection for chemistry begain to wain, however, as I moved from the study of chemisty into the practice of chemistry. I have come to realize that the reason for this disconnect has to do with the difference between science and engeneering or, per the title of this post, the difference between computers and chemistry.
+ Is something I have contemplated a lot in the past months. I asked to get a chemistry set for Christmas, declared chemistry as my major as soon as possible, and spent the last four years doing product development for a chemical start-up. My affection for chemistry began to wain, however, as I moved from the study of chemistry into the practice of chemistry. I have come to realize that the reason for this disconnect has to do with the difference between science and engineering or, per the title of this post, the difference between computers and chemistry.
 
-It's insturctive to look at the verbs we associate with working in a lab or with a computers. We write code to develop software, very few people (if any) would say they research code. However, any chemist wishing to build something new does not have the luxury of 'writing' reactions, and checking them with the push of a button. Insted, experiments are proposed and executed. Most of these experiments are mearly gathering a list of things that will not work untill the researcher is out of time, money, or ideas. In this respect, the process looks a bit like mining for gold. A lot more dirt gets dug up than gold.
+It's instructive to look at the verbs we associate with working in a lab or with a computers. We write code to develop software, very few people (if any) would say they research code. However, any chemist wishing to build something new does not have the luxury of 'writing' reactions, and checking them with the push of a button. Instead, experiments are proposed and executed. Most of these experiments are merely gathering a list of things that will not work until the researcher is out of time, money, or ideas. In this respect, the process looks a bit like mining for gold. A lot more dirt gets dug up than gold. A cretin set of skills are required of a good chemist among which are patience, steady hands, and a willingness to dig up all those tons of dirt.
+
+I don't like digging up metaphorical dirt, at least not the amount required to find gold.
+
+Chemists must communicate because the landscape is so foreign developers must communicate because the landscape is synthetic.
+
+The world of software development differs from the natural world explored by a scientist in that it is a world we have built for ourselves. In this self-constructed world there is a difference between code that runs and good software. Strictly learning to write code entails leaning the syntax and constructs of a given language and applying that understanding of the language to solve a problem. Leaning to write good software is more about learning to work with other people to solve a problem than leaning a language. As someone who is, at the moment, on the receiving end of software development it has been about receiving information from other developers in the form of documentation. As I advance my skills and experience I will have the opportunity to be the one who produces communication as well as consume it. Because this communication is so vital to the quality of software I can't wait until I've built complex applications to start practicing my documentation skills. So why not blog about it? Sounds like a good enough idea to me.
+
+
+##Outline##
+
+I have been thinking about chemistry
+  about me
+  what got me thinking
+
+Chemistry is natural Computers are synthetic
+  In chemistry, everything is a hack
+    We don't know what is going on
+  We dig tons of dirt
+  It's not for everyone
+  Also why documentation is super important
+
+Computers are contrived and don't exist without us
+  This used to turn me off
+  But its super exciting b/c we are in control
+    I like control
+  It can get super confusing there is no end in sight
+  That's why documentation is super important
+
+The main thing that computers and chemistry have in common is that they both only as good as their documentation
+
+
+
+
+
+
+
+
+
