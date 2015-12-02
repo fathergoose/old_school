@@ -1,11 +1,16 @@
 
+p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-family: 'Raleway', sans-serif;
+}
+
 .mdl-card__supporting-text {
   padding: 35px;
-  font-size: 1.2em;
 }
 
 .mdl-layout-title, .mdl-navigation__link, h1, h3 {
-  font-family: 'Share Tech Mono';
+  font-family: 'Share Tech Mono', monospace;
   text-decoration: none;
 }
 
