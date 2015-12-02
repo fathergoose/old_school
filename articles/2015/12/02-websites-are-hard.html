@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Websites are Hard</title>
+  <link rel="stylesheet" href="../../../material.min.css">
+  <script src="../../../material.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../../../style.css">
+</head>
+<body>
+  <!-- Always shows a header, even in smaller screens. -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-100">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Fathergoose Speaks</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="mdl-navigation__link" href="http://blog.ilseman.com">Home</a>
+          <a class="mdl-navigation__link" href="../../../articles.html">Articles</a>
+          <a class="mdl-navigation__link" href="../../../about.html">About</a>
+          <a class="mdl-navigation__link" href="https://github.com/fathergoose">Github</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+      <span class="mdl-layout-title">Contents</span>
+      <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="http://blog.ilseman.com">Home</a>
+          <a class="mdl-navigation__link" href="../../../articles.html">Articles</a>
+          <a class="mdl-navigation__link" href="../../../about.html">About</a>
+          <a class="mdl-navigation__link" href="https://github.com/fathergoose">Github</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col"></div>
+          <div class="mdl-cell mdl-cell--8-col">
+            <!-- Wide card article style w/o buttons or header -->
+            <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+              <div class="mdl-card__supporting-text">
+                <h1>websites are hard</h1>
+                <p>I wanted to make a blog about changing my career from chemist to web developer. This gave me a great idea: I will make the blog from scratch and gradually add in features as my skills improve.<p>
+                <p>Sounds like a good idea right?</p>
+                <p>But I didn't want my blog to look like some junk crap out of the 90s, and I have no ambitions of becoming any kind of designer (more of a back-end sort of guy). So I grabbed a UI-Framework. Specifically <a href="www.getmd.io">Material Design Lite</a>
+              </div>
+              <!--div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="http://blog.ilseman.com/articles/2015/11/08-difference-between.html">
+                 read on
+                </a>
+              </div-->
+            </div>
+          <div class="mdl-cell mdl-cell--2-col"></div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
